@@ -1,0 +1,44 @@
+# 📌 Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 📌 Virtual Environment (Poetry)
+.env
+.venv/
+
+# 📌 Poetry Lock File (Keep if tracking dependencies strictly)
+poetry.lock
+
+# 📌 Logs and Debug Files
+*.log
+*.out
+*.err
+*.swp
+
+# 📌 Test Artifacts
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# 📌 Build Artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 📌 Jupyter Notebooks Checkpoints
+.ipynb_checkpoints/
+
+# 📌 VS Code
+.vscode/
+
+# 📌 PyCharm
+.idea/
+*.iml
+
+# 📌 System Files (Mac/Linux/Windows)
+.DS_Store
+Thumbs.db
